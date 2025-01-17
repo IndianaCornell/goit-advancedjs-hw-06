@@ -18,6 +18,6 @@ class Page extends Component<PageProps> {
 }
 
 const myPage = new Page({ title: "My Page", content: "This is some content" });
-myPage.pageInfo(); // Виведе: 'My Page'
+myPage.pageInfo(); 
 
 export {};
